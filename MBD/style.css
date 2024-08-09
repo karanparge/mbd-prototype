@@ -1,0 +1,353 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    border-radius: 50%;
+    height: 20vh;
+}
+
+.logo h1 {
+    color: white;
+}
+
+.navbar_1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    height: 18vh;
+    background-image:url("./assets/grass-2312139_1920.jpg") ;
+    background-size: cover;
+}
+
+.searchbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#socials {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 3vw;
+}
+
+#socials li {
+    display: flex;
+    list-style: none;
+    padding: 20px;
+    cursor: pointer;
+}
+
+#socials span {
+    background-color: white;
+    
+}
+
+#socials span i {
+    font-size: 24px;
+    cursor: pointer;
+    border: none;
+}
+
+#socials li a {
+    text-decoration: none;
+    padding: 1vw;
+}
+
+#socials li a:first-child {
+    color: blue;
+}
+
+#socials li a:nth-child(2) {
+    color: black;
+}
+
+#socials li a:nth-child(3) {
+    color: red;
+}
+
+#socials li a i {
+    font-size: 30px;
+} */
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar_1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.navbar_1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    height: 18vh;
+    background-image:url("./assets/grass-2312139_1920.jpg") ;
+    background-size: cover;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    border-radius: 50%;
+    height: 15vh;
+    margin-right: 10px;
+}
+
+#socials {
+    display: flex;
+    align-items: center;
+}
+
+#socials li {
+    display: flex;
+    list-style: none;
+    padding: 0 20px;
+    cursor: pointer;
+}
+
+#socials li a {
+    color: white;
+    text-decoration: none;
+    padding: 0 15px;
+    font-size: 29px;
+}
+
+#socials li a:first-child {
+    color: blue;
+}
+
+#socials li a:nth-child(2) {
+    color: black;
+}
+
+#socials li a:nth-child(3) {
+    color: red;
+}
+
+.searchbar {
+    margin-left: 20px;
+}
+
+.navbar_2 {
+    background-color: #4CAF50;
+    padding: 10px 0;
+}
+
+.navbar_2 ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar_2 ul li {
+    margin: 0 15px;
+}
+
+.navbar_2 ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar_2 ul li a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    margin-top: 10px;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.container {
+    padding: 20px 0;
+}
+
+h2 {
+    color: #4CAF50;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    padding: 5px 0;
+}
+
+.box {
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: #f9f9f9;
+    margin-bottom: 20px;
+  }
+  .custom-margin {
+    margin-left: 10px; /* Adjust as needed */
+    margin-right: 10px; /* Adjust as needed */
+  }
+
+  .mission-section h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.mission-section p {
+    font-size: 1.2rem;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.mission-section .card-title {
+    font-size: 1.1rem;
+    color: white;
+}
+
+.mission-section .btn {
+    margin: 10px;
+    font-size: 1rem;
+}
+.mission-section .card-body img {
+   
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
+  }
+  
+  .mission-section .card-body img:hover {
+    transform: scale(1.1); /* Slightly enlarges the image on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds shadow effect */
+  }
+  .footer-image {
+    background-image: url("./assets/footer-bg.jpg");
+    background-color: #f8f9fa;
+    padding: 0px 0;
+    background-size: cover; /* This makes the image cover the entire background */
+    background-position: center; /* This centers the image */
+    background-repeat: no-repeat; /* This prevents the image from repeating */
+}
+
+  
+  .footer-icon img {
+    width: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-image h8 {
+    color: #2a78cf;
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+  
+  .footer {
+    background-color: #171717;
+    color: #ffffff;
+    padding: 40px 0;
+    font-size: 14px;
+  }
+  
+  .footer a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer .visitor-counter span {
+    font-size: 24px;
+    color: #28a745;
+  }
+  
+  .footer .row.mt-4 {
+    margin-top: 20px;
+  }
+  
+  .footer .col.text-center {
+    text-align: center;
+  }
+  
+  .circle-icon {
+    width: 40%; /* Adjust the size of the circle */
+    height: 40%; /* Adjust the size of the circle */
+    background-color:#078798; /* Initial circle color */
+    border-radius: 50%; /* Makes the container circular */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle-icon img {
+    width: 50%; /* Adjust the size of the image inside the circle */
+    height: 50%;
+    object-fit: contain; /* Ensures the image fits well inside the circle */
+    object-position: center;
+}
+
+.footer-icon {
+    flex: 1; /* Distribute circles evenly in the remaining 50% space */
+    max-width: 33%; /* Ensure each circle with its text takes up equal space */
+    justify-content: start; /* Aligns items to the start of the flex container */
+    text-align: left; /* Align text to the left */
+}
+
+h5 {
+    margin: 0; /* Removes the default margin around the h5 element */
+}
+
+.d-flex.justify-content-between {
+    gap: 0; /* Removes any gaps between circles and text */
+}
+.footer .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.footer .col-md-4 {
+    flex: 1; /* Ensures equal spacing between the columns */
+}
+
+.footer h5, .footer p {
+    margin: 0;
+    padding: 5px 0; /* Adds some padding for better spacing */
+}
+
+.visitor-counter span {
+    display: block;
+    font-size: 1.5rem; /* Adjusts the font size of the visitor counter */
+    margin-top: 10px;
+}
+
